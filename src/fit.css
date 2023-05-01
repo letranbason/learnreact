@@ -1,0 +1,12 @@
+.begin {
+    color: red;
+}
+.begin1{
+    color: blue;
+}
+.button{
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
