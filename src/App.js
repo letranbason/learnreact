@@ -17,7 +17,11 @@ function App() {
         >
           Learn React
         </a>
-        <Fit/>
+        <Fit
+          name = {'Ba Son'}
+          age ={'20'}
+          years ={'2001'}
+        />
       </header>
     </div>
   );

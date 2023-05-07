@@ -15,10 +15,11 @@ class Fit extends React.Component{
     render(){
         return(
             <>
-                <div className="begin">hello world form {this.state.name}</div>
+                <div> {this.context.age}</div>
+                <div >{this.props.name} {this.props.years} {this.props.age}</div>
                 <div className="begin1">hello age form {this.state.age}</div>
                 <div>hello years form {this.state.years}</div>
-
+                
                 <button className="button" onClick={()=> this.handleonclick()}> click</button>
             </>
             
