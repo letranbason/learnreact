@@ -18,10 +18,11 @@ function App() {
           Learn React
         </a>
         <Fit
-          name = {'Ba Son'}
+          name = {'son'}
           age ={'20'}
           years ={'2001'}
         />
+        
       </header>
     </div>
   );
